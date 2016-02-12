@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     getSupportActionBar().hide();
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
     mUserSwitch = (Switch)findViewById(R.id.typeSwitch);
+    //check if user is logged in if not lets create a new User
     if(ParseUser.getCurrentUser() == null)
     {
       ParseAnonymousUtils.logIn(new LogInCallback() {
@@ -66,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
       riderDriver = "driver";
     }
 
+    //add a field to distinguish user from rider
     ParseUser.getCurrentUser().put("riderOrDriver", riderDriver);
     final String finalRiderDriver = riderDriver;
     ParseUser.getCurrentUser().saveInBackground(new SaveCallback() {
