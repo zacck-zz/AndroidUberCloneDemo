@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Zacck\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-a084a63e436bdc9457dc46c856071d0a282d0754.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zacck\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.1-e166ea20bf60249e75760918180149ab2c5224d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-b8dda395e6d37cf3936afde34fa973e7fb636393.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-4cf9e2ab2c90bfe12fb9a6ca6e6067c1ed076372.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-f52255712ca1c125d8965250773b5a30718e2f74.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zacck\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.1\a87cb993a12e574a216213d0b8b2b78f6da35d37\parse-android-1.10.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a87cb993a12e574a216213d0b8b2b78f6da35d37">
+        <dex dex="C:\Users\Zacck\Documents\Uber\ParseStarterProject\build\intermediates\pre-dexed\debug\parse-android-1.10.1-50fb7325ef9a62cd0c7926f7b4363413b7478524.jar" />
+    </item>
+
+</items>
