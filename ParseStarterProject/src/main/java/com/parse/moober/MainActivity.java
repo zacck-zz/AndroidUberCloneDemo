@@ -2,6 +2,7 @@
 package com.parse.moober;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -53,10 +54,24 @@ public class MainActivity extends AppCompatActivity {
     {
       if(ParseUser.getCurrentUser().get("riderOrDriver") != null)
       {
-        Log.i(getPackageName(), "Redirect User");
+        redirectUser();
       }
     }
 
+  }
+
+  public void redirectUser()
+  {
+    if(ParseUser.getCurrentUser().get("riderOrDriver").equals("rider"))
+    {
+      Intent redirectIntent = new Intent(getApplicationContext(), RiderActivity.class);
+      startActivity(redirectIntent);
+    }
+    else
+    {
+      Intent redirectIntent = new Intent(getApplicationContext(), DriverActivity.class);
+      startActivity(redirectIntent);
+    }
   }
   public  void getStarted(View view)
   {
@@ -67,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
       riderDriver = "driver";
     }
 
+
     //add a field to distinguish user from rider
     ParseUser.getCurrentUser().put("riderOrDriver", riderDriver);
     final String finalRiderDriver = riderDriver;
@@ -75,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
       public void done(ParseException e) {
         if(e == null)
         {
-          Log.i(getPackageName(), finalRiderDriver+" signedup");
+          redirectUser();
         }
       }
     });
